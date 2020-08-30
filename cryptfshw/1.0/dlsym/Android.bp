@@ -19,8 +19,8 @@ cc_binary {
     owner: "qti",
     product_variables: {
         pixeldust: {
-            should_skip_waiting_for_qsee: {
-                cflags: ["-DSKIP_WAITING_FOR_QSEE"],
+            should_wait_for_qsee: {
+                cflags: ["-DWAIT_FOR_QSEE"],
             },
         },
     },
